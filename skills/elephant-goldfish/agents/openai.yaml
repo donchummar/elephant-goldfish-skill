@@ -1,0 +1,4 @@
+interface:
+  display_name: "Elephant & Goldfish"
+  short_description: "Design doc first, validated by zero-context agents, then code"
+  default_prompt: "Use the elephant-goldfish workflow for this change:"

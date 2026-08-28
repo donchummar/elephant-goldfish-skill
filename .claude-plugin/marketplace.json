@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "elephant-goldfish",
+  "description": "Design-doc-first workflow: validate the design with zero-context agents before writing implementation code.",
+  "owner": {
+    "name": "Don Chummar",
+    "url": "https://github.com/donchummar"
+  },
+  "plugins": [
+    {
+      "name": "elephant-goldfish",
+      "description": "Write the design doc first, then have fresh zero-context subagents prove it is buildable before any code gets written. An implementation of Dave Rensin's Elephant-Goldfish Model.",
+      "source": "./",
+      "category": "workflow"
+    }
+  ]
+}
